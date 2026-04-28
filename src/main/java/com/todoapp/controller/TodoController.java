@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin(origins = "*") // allow frontend
+@CrossOrigin(origins = "*") 
 public class TodoController {
 
     private final TodoService service;
